@@ -43,7 +43,7 @@ function App() {
           <img
             src="/google-cloud-logo.png"
             alt="Google Cloud"
-            className="h-8 object-contain"
+            className="h-14 object-contain"
           />
         </div>
       </nav>
