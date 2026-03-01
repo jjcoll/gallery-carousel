@@ -37,6 +37,17 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white overflow-hidden relative">
+      {/* Nav */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
+        <div className="px-6 py-4">
+          <img
+            src="/google-cloud-logo.png"
+            alt="Google Cloud"
+            className="h-8 object-contain"
+          />
+        </div>
+      </nav>
+
       {/* Desktop: Hover zone at top */}
       <div
         className="hidden md:block fixed top-0 left-0 right-0 h-16 z-50"
@@ -207,7 +218,7 @@ function App() {
         className="grid justify-center"
         style={{
           gridTemplateColumns: `repeat(${columns}, minmax(0, ${maxWidth}px))`,
-          padding: `8px ${padding}px`,
+          padding: `72px ${padding}px 8px`,
           gap: `${gap}px`,
         }}
       >
